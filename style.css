@@ -33,13 +33,13 @@ body {
   margin: 0 auto 0;
 }
 
-.task {
+.todo-block__input, .todo-block__task-label {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
 
-.task-row-wrapper {
+.todo-block__task-row {
   display: flex;
 }
 
