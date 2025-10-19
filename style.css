@@ -58,7 +58,7 @@ button{
   outline: none;
 }
 
-btn {
+.btn {
   background: none;
   border: 0px;
   color: #888;
@@ -144,13 +144,13 @@ li > * {
   width: 226px;
 }
 
-button.delete img {
+.todo-block__icon-delete {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-button.delete img:hover {
+.todo-block__icon-delete:hover {
   transform: rotateZ(0);
 }
 
