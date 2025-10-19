@@ -109,13 +109,13 @@ btn:hover {
   margin: 0 0 20px;
 }
 
-input#new-task {
+.todo-block__input-new-task {
   width: 318px;
 }
 
 /* Task list */
 
-li {
+.todo-list__task {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -129,18 +129,18 @@ li > * {
   vertical-align: middle;
 }
 
-li > input[type="checkbox"] {
+.todo-block__checkbox {
   margin: 0 10px;
 }
 
-li > label {
+.todo-block__task-label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-li >    input[type="text"] {
+.todo-block__input {
   width: 226px;
 }
 
