@@ -33,6 +33,10 @@ body {
   margin: 0 auto 0;
 }
 
+#todo-block__add-item {
+  margin: 16px 0;
+}
+
 .todo-block__input, .todo-block__task-label {
   width: 56%;
   display: inline-block;
