@@ -125,7 +125,7 @@ button{
   align-items: center;
 }
 
-li > * {
+.todo-block__task > * {
   vertical-align: middle;
 }
 
@@ -156,22 +156,22 @@ li > * {
 
 /* Completed */
 
-ul#completed-tasks label {
+#todo-block__completed-tasks .todo-block__task-label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 
-ul li input[type=text] {
+.todo-block__task .todo-block__input {
   display: none;
 }
 
-ul li.editMode input[type=text] {
+.todo-block__task--edit-mode .todo-block__input {
   display: inline-block;
   width: 224px;
 }
 
-ul li.editMode label {
+.todo-block__task--edit-mode .todo-block__task-label {
   display: none;
 }
