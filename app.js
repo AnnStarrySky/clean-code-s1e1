@@ -101,7 +101,7 @@ var editTask=function(){
     }
 
     //toggle .editmode on the parent.
-    listItem.classList.toggle("editMode");
+    listItem.classList.toggle("todo-block__task--edit-mode");
 };
 
 
@@ -158,7 +158,7 @@ var bindTaskEvents=function(taskListItem,checkBoxEventHandler){
     console.log("bind list item events");
 //select ListItems children
     var checkBox=taskListItem.querySelector(".todo-block__checkbox");
-    var editButton=taskListItem.querySelector(".todo-block__checkbox");
+    var editButton=taskListItem.querySelector(".todo-block__btn-edit");
     var deleteButton=taskListItem.querySelector(".todo-block__btn-delete");
 
 
